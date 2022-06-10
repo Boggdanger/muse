@@ -191,3 +191,234 @@ input{
 .muse-s-footer__sep {
     margin: 0 0.8vw;
 }
+
+@media (max-width: 1200px) { 
+    .s0-central-content__logo {
+        width: 55vw;
+        height: 15vw;
+    }
+
+    .s0-central-content-coll {
+        padding: 2.9vw 2vw 3vw;
+    }
+
+    .s0-central-content-coll {
+        margin-top: 6.7vw;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+
+    .s0-central-content__logo {
+        margin-top: 4.8vw;
+        width: 34vw;
+        height: 8vw;
+    }
+}
+
+@media (min-width: 1450px) and (max-width: 1900px) { 
+    .s0-central-content__logo {
+        margin-top: 1.8vw;
+        width: 25vw;
+        height: 6vw;
+        object-fit: contain;
+    }
+
+    .s0-central-content-coll {
+        margin-top: 2.7vw;
+    }
+}
+
+@media (min-width: 1900px) and (max-width: 2559px) { 
+
+    .s0-central-content__logo {
+            margin-top: 3.8vw;
+            width: 37vw;
+            height: 9vw;
+        }
+    }
+
+@media (min-width: 2560px) { 
+
+    .s0-central-header {
+        padding-top: 1.2vw;
+        padding-bottom: 0.7vw;
+        font-size: 2vw;
+    }
+
+    .s0-central-content__qr {
+        width: 6vw;
+    }
+
+    .s0-central-content__logo {
+        margin-top: 0.8vw;
+        width: 32vw;
+        height: 7vw;
+    }
+
+    .s0-central-content-coll {
+        margin-top: 2.7vw;
+    }
+
+    .s0-central-content-coll__gallery {
+        margin-top: 1.4vw;
+        margin-bottom: 1.4vw;
+    }
+
+    .s0-central-content-coll__txt {
+        font-size: 1.8vw;
+    }
+
+    .s0-central-content-coll__gallery-item {
+        width: 12.4vw;
+        height: 9vw;
+    }
+
+    .muse-s-footer {
+        font-size: 1.3vw;
+        padding: 1.2vw 0;
+    }
+    
+}
+
+
+/* MUSE-s1-central */
+.s1-central-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 3.8vw 4.8vw;
+    align-items: center;
+}
+
+.muse-progress-inner {
+    display: flex;
+    align-items: center;
+}
+
+.muse-progress {
+    position: relative;
+    width: 8.3vw;
+    height: 8.3vw;
+    border: 1px solid #7B7B7B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.muse-progress__digit {
+    font-weight: 700;
+    font-size: 2.4vw;
+}
+
+.muse-progress__circle {
+    width: 8.8vw;
+    height: 8.8vw;
+    position: absolute;
+    transform: scale(-1, -1);
+}
+
+.muse-progress__circle-path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 930;     /* change it to fill the circle 750-1000 */
+    stroke: #DFAF89;
+    stroke-width: 0.4vw;
+    stroke-linecap: round;
+    fill: none;
+}
+
+.muse-progress__img-circle {
+    position: absolute;
+    width: 5.8vw;
+    height: 5.8vw;
+    object-fit: contain;
+}
+
+.muse-txt-item {
+    font-size: 1.4vw;
+    text-transform: uppercase;
+    margin-left: 1.8vw;
+    width: 8vw;
+}
+
+.s1-user-head {
+    width: 535px;
+    margin-left: 2.5vw;
+    /* margin-bottom: -3vw; */
+}
+
+.s1-user-head__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    color: #DFAF89;
+    font-size: 2.35vw;
+    text-align: center;
+    margin-bottom: 1.3vw;
+}
+
+.s1-user-head__line {
+    width: 100%;
+    height: 1px;
+    background: #7B7B7B;
+}
+
+.s1-user-head__txt-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5vw;
+}
+
+.s1-user-head__txt {
+    display: flex;
+    font-size: 1.9vw;
+    align-items: center;
+    color: #D0D6DC;
+}
+
+.s1-user-head__txt:first-child {
+    margin-right: 2vw;
+}
+
+.s1-user-head__icon {
+    width: 1.3vw;
+    height: 1.3vw;
+    margin-right: 0.7vw;
+}
+
+.s1-qr-head {
+    display: flex;
+
+}
+
+.s1-qr-head__img {
+    width: 6.87vw;
+    height: 6.87vw;
+    border-radius: 8px 0 0 8px;
+    margin-right: -2px;
+}
+
+.s1-qr-head__info {
+    border: 2px solid #7B7B7B;
+    border-radius: 0 8px 8px 0;
+    width: 13.8vw;
+    text-align: center;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: none;
+}
+
+.s1-qr-head__title {
+    font-size: 1.45vw;
+    color: #DFAF89;
+}
+
+.s1-qr-head__link {
+    font-size: 1.3vw;
+}
+
+.s1-qr-head__code {
+    font-size: 1.5vw;
+}
