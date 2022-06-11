@@ -710,7 +710,7 @@ input{
 }
 
 .s3-central-card1-main-wrapper {
-    padding: 0 6vw;
+    padding: 0 4.7vw 0 6vw;
     margin-top: 2vw;
     display: flex;
     justify-content: space-between;
@@ -738,6 +738,10 @@ input{
     object-fit: contain;
 }
 
+.s-user-head_s3 {
+    margin: 0 auto;
+}
+
 .s-user-head__title_s3 {
     margin-bottom: 1vw;
 }
@@ -746,6 +750,99 @@ input{
     margin-top: 0.7vw;
 }
 
+.muse-centr-rating {
+    width: 44.75vw;
+    background: #2B2B2B;
+    border: 1px solid #7B7B7B;
+    border-radius: 0.7vw;
+    padding-top: 4.35vw;
+    padding-bottom: 4vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .muse-centr-rating__title {
-    
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    color: #D0D6DC;
+    font-size: 2.35vw;
+    text-align: center;
+    margin-bottom: 0.4vw;
+}
+
+.muse-centr-rating__star-wrapper {
+    display: flex;
+}
+
+.muse-centr-rating__star-item {
+    position: relative;
+    width: 3.5vw;
+    height: 3.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.muse-centr-rating__star-item:not(:last-of-type) {
+    margin-right: 0.8vw;
+}
+
+.muse-centr-rating__icon-grey {
+    width: 3.5vw;
+    height: 3.5vw;
+    object-fit: contain;
+    position: absolute;
+}
+
+.muse-centr-rating__icon-active {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    overflow: hidden;
+    left: 0;
+}
+
+
+.muse-centr-rating__icon-active_width {
+    width: 40%;
+}
+
+.muse-centr-rating__icon-color {
+    width: 3.5vw;
+    height: 3.5vw;
+    object-fit: contain;
+}
+
+.muse-centr-rating__digit-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.muse-centr-rating__digit-line {
+    width: 5.4vw;
+    height: 0.05vw;
+    background: #DFAF89;
+    display: block;
+}
+
+.muse-centr-rating__digit-item {
+    font-size: 4.3vw;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    color: #DFAF89;
+    text-align: center;
+    width: 10.5vw;
+}
+
+.muse-centr-rating__line {
+    width: 80%;
+    height: 0.05vw;
+    background: #7B7B7B;
+    margin-top: 2.5vw;
+    margin-bottom: 4vw;
 }
