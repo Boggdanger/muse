@@ -1599,8 +1599,350 @@ input{
 
 }
 
+/* MUSE-s3-central-card4 */
+.s4-cent-c4-coll {
+    width: 72%;
+    background: #2B2B2B;
+    border: 1px solid #7B7B7B;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 0.7vw;
+    margin-top: 0.2vw;
+    padding-top: 1.2vw;
+    padding-bottom: 2.4vw;
+}
 
+.s4-cent-c4-coll__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    color: #DFAF89;
+    font-size: 2.35vw;
+    border-bottom: 1px solid #7B7B7B;
+    padding-bottom: 0.8vw;
+}
 
+.s4-cent-c4-coll__wrapper {
+    margin-top: 2vw;
+    display: flex;
+}
+
+.s4-cent-c4-coll__item {
+    width: 33.3%;
+}
+
+.s4-cent-c4-coll__item:nth-child(2) {
+    border-left: 1px solid #7B7B7B;
+    border-right: 1px solid #7B7B7B;
+}
+
+.s4-cent-c4-coll__place {
+    display: flex;
+    align-items: flex-end;
+    font-size: 4.3vw;
+    line-height: 93%;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    justify-content: center;
+}
+
+.s4-cent-c4-coll__icon {
+    width: 6.3vw;
+    height: auto;
+    margin-right: 1vw;
+}
+
+.s4-cent-c4-coll__user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-weight: 700;
+    font-size: 1.65vw;
+    color: #D0D6DC;
+    margin-top: 2vw;
+}
+
+.s4-cent-c4-coll__user-dig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    width: 2vw;
+    height: 2vw;
+    font-weight: 700;
+    font-size: 1.35vw;
+    margin-right: 2vw;
+    text-align: center;
+    padding-left: 0.2vw;
+}
+
+.s4-cent-c4-coll__title-sold {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    color: #DFAF89;
+    font-size: 2.3vw;
+    text-align: center;
+    margin-top: 2.6vw;
+    margin-bottom: 2.7vw;
+}
+
+.muse-gallery-card {
+    margin: 0 auto;
+    width: 90.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.muse-gallery-card__item {
+    width: 14.2vw;
+}
+
+.muse-gallery-card__art-wrapper {
+    position: relative;
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.muse-gallery-card__frame {
+    width: 100%;
+    height: auto;
+    z-index: 4;
+    position: absolute;
+    filter: drop-shadow(2px 6px 8px rgba(0, 0, 0, 0.25));
+}
+
+.muse-gallery-card__img {
+    width: 88%;
+    height: 88%;
+    object-fit: contain;
+}
+
+.muse-gallery-card__star-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.muse-gallery-card__star-item {
+    position: relative;
+    width: 1.3vw;
+    height: 1.3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.1vw;
+}
+
+.muse-gallery-card__star-item:not(:last-of-type) {
+    margin-right: 0.52vw;
+}
+
+.muse-gallery-card__icon-active {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    overflow: hidden;
+    left: 0;
+}
+
+.muse-gallery-card__icon-color {
+    width: 1.3vw;
+    height: 1.3vw;
+    object-fit: contain;
+}
+
+.muse-gallery-card__icon-grey {
+    width: 1.3vw;
+    height: 1.3vw;
+    object-fit: contain;
+    position: absolute;
+}
+
+@media (max-width: 1200px) { 
+    .s4-cent-c4-coll {
+        padding-top: 2.2vw;
+        padding-bottom: 3.4vw;
+        margin-top: 4vw;
+    }
+
+    .s4-cent-c4-coll__title {
+        padding-bottom: 1.8vw;
+    }
+
+    .s4-cent-c4-coll__wrapper {
+        margin-top: 3vw;
+    }
+
+    .s4-cent-c4-coll__title-sold {
+        margin-top: 4.6vw;
+    }
+
+    .muse-gallery-card__icon-active {
+        height: 124%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+    .s4-cent-c4-coll {
+        padding-bottom: 1.4vw;
+    }
+
+    .s4-cent-c4-coll__wrapper {
+        margin-top: 1vw;
+    }
+
+    .s4-cent-c4-coll__icon {
+        width: 5.3vw;
+    }
+
+    .s4-cent-c4-coll__place {
+        font-size: 3.3vw;
+    }
+
+    .s4-cent-c4-coll__title-sold {
+        margin-top: 2.5vw;
+        margin-bottom: 2vw;
+    }
+
+    .muse-gallery-card__star-item {
+        margin-top: 0.7vw;
+    }
+}
+
+@media (min-width: 1450px) and (max-width: 1900px) { 
+    .s4-cent-c4-coll {
+        padding-bottom: 1.4vw;
+    }
+
+    .s4-cent-c4-coll__title {
+        font-size: 1.7vw;
+        padding-bottom: 0.5vw;
+    }
+
+    .s4-cent-c4-coll__wrapper {
+        margin-top: 0.5vw;
+    }
+
+    .s4-cent-c4-coll__icon {
+        width: 3.3vw;
+    }
+
+    .s4-cent-c4-coll__place {
+        font-size: 2.3vw;
+    }
+
+    .s4-cent-c4-coll__user {
+        font-size: 1.2vw;
+        margin-top: 0.4vw;
+    }
+
+    .s4-cent-c4-coll__title-sold {
+        margin-top: 3vw;
+        margin-bottom: 2vw;
+        font-size: 1.5vw;
+    }
+
+    .muse-gallery-card {
+        width: 84.5%;
+    }
+
+    .muse-gallery-card__item {
+        width: 13.2vw;
+    }
+
+    .muse-gallery-card__art-wrapper {
+        height: 10vw;
+    }
+
+    .muse-gallery-card__star-item {
+        margin-top: 0.7vw;
+    }
+}
+
+@media (min-width: 1900px) and (max-width: 2559px) { 
+    .s4-cent-c4-coll {
+        padding-bottom: 1.4vw;
+    }
+
+    .s4-cent-c4-coll__wrapper {
+        margin-top: 1vw;
+    }
+
+    .s4-cent-c4-coll__icon {
+        width: 5.3vw;
+    }
+
+    .s4-cent-c4-coll__place {
+        font-size: 3.3vw;
+    }
+
+    .s4-cent-c4-coll__title-sold {
+        margin-top: 2.5vw;
+        margin-bottom: 2vw;
+    }
+
+    .muse-gallery-card__star-item {
+        margin-top: 0.7vw;
+    }
+}
+
+@media (min-width: 2560px) { 
+    .s4-cent-c4-coll {
+        padding-bottom: 1.4vw;
+    }
+
+    .s4-cent-c4-coll__title {
+        font-size: 1.7vw;
+        padding-bottom: 0.5vw;
+    }
+
+    .s4-cent-c4-coll__wrapper {
+        margin-top: 0.5vw;
+    }
+
+    .s4-cent-c4-coll__icon {
+        width: 3.3vw;
+    }
+
+    .s4-cent-c4-coll__place {
+        font-size: 2.3vw;
+    }
+
+    .s4-cent-c4-coll__user {
+        font-size: 1.2vw;
+        margin-top: 0.4vw;
+    }
+
+    .s4-cent-c4-coll__title-sold {
+        margin-top: 2.1vw;
+        margin-bottom: 2vw;
+        font-size: 1.5vw;
+    }
+
+    .muse-gallery-card {
+        width: 84.5%;
+    }
+
+    .muse-gallery-card__item {
+        width: 11.2vw;
+    }
+
+    .muse-gallery-card__art-wrapper {
+        height: 8vw;
+    }
+
+    .muse-gallery-card__star-item {
+        margin-top: 0.7vw;
+    }
+
+}
 
 
 
