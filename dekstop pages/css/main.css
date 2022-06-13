@@ -2119,12 +2119,269 @@ input{
 
 }
 
+/* MUSE-s4-central-card2 */
+.s4-central-card-inner_padding {
+    padding-top: 6vw;
+}
+
+.muse-centr-total {
+    width: 73%;
+    background: #2B2B2B;
+    border: 1px solid #7B7B7B;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 3.2vw;
+    padding-bottom: 2.4vw;
+    margin-top: 4.2vw;
+}
+
+.muse-centr-total__user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.muse-centr-total__user-digit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    font-weight: 700;
+    font-size: 2.35vw;
+    margin-right: 2vw;
+    text-align: center;
+    background: #FF6006;
+}
+
+.muse-centr-total__user-name {
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-weight: 700;
+    font-size: 2.4vw;
+    color: #DFAF89;
+    /* margin-top: 2vw; */
+}
+
+.muse-centr-total__team-list {
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    margin-top: 1.3vw;
+}
+
+.muse-centr-total__team-user:not(:last-of-type) {
+    margin-right: 1vw;
+}
+
+.muse-centr-total__line {
+    height: 2px;
+    background: #7B7B7B;
+    width: 56%;
+    margin: 0 auto;
+    margin-top: 3vw;
+    margin-bottom: 3.2vw;
+}
+
+.muse-centr-total__numbers-wrapper {
+    display: flex;
+}
+
+.muse-centr-total__numbers-item {
+    width: 50%;
+}
+
+.muse-centr-total__big-digit {
+    font-size: 4.4vw;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    line-height: 110%;
+}
+
+.muse-centr-total__digit-txt {
+    font-size: 1.8vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #DFAF89;
+    letter-spacing: 0.15em;
+}
+
+.muse-gallery-card_three {
+    width: 47.5%;
+    margin-top: 4vw;
+}
+
+.muse-gallery-card__art-name {
+    text-align: center;
+    letter-spacing: 0.15em;
+    font-size: 1.7vw;
+    color: #DFAF89;
+    margin-top: 1vw;
+}
+
+.muse-gallery-card__art-digit {
+    font-size: 2vw;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+@media (max-width: 1200px) { 
+    .muse-centr-total {
+        padding-bottom: 3vw;
+        margin-top: 6.2vw;
+    }
+
+    .muse-gallery-card_three {
+        margin-top: 8vw;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+    .muse-centr-total {
+        width: 73%;
+        background: #2B2B2B;
+        border: 1px solid #7B7B7B;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 0.7vw;
+        padding-top: 2.2vw;
+        padding-bottom: 1.4vw;
+        margin-top: 2.2vw;
+    }
+}
+
+@media (min-width: 1450px) and (max-width: 1900px) { 
+    .s4-central-card-inner_padding {
+        padding-top: 3vw;
+    }
+
+    .muse-centr-total {
+        padding-top: 1.2vw;
+        padding-bottom: 1.4vw;
+        margin-top: 2.2vw;
+    }
+
+    .muse-centr-total__user-digit {
+        width: 2vw;
+        height: 2vw;
+        font-size: 1.35vw;
+    }
+
+    .muse-centr-total__user-name {
+        font-size: 2.0vw;
+    }
+
+    .muse-centr-total__team-list {
+        margin-top: 1vw;
+    }
+
+    .muse-centr-total__team-list {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5vw;
+    }
+
+    .muse-centr-total__line {
+        margin-top: 2vw;
+        margin-bottom: 1.2vw;
+    }
+
+    .muse-centr-total__big-digit {
+        font-size: 2.4vw;
+    }
+
+    .muse-gallery-card_three {
+        margin-top: 3vw;
+    }
+
+    .muse-gallery-card__art-digit {
+        font-size: 1.7vw;
+    }
+
+    .muse-gallery-card__art-name {
+        font-size: 1.4vw;
+        margin-top: 0.4vw;
+    }
+}
+
+@media (min-width: 1900px) and (max-width: 2559px) { 
+    .muse-centr-total__line {
+        margin-top: 2vw;
+        margin-bottom: 2.2vw;
+    }
+
+    .muse-centr-total {
+        padding-top: 2.2vw;
+        padding-bottom: 1.4vw;
+        margin-top: 3.2vw;
+    }
+}
+
+@media (min-width: 2560px) { 
+    .s4-central-card-inner_padding {
+        padding-top: 3vw;
+    }
+
+    .muse-centr-total {
+        padding-top: 1.2vw;
+        padding-bottom: 1.4vw;
+        margin-top: 2.2vw;
+    }
+
+    .muse-centr-total__user-digit {
+        width: 2vw;
+        height: 2vw;
+        font-size: 1.35vw;
+    }
+
+    .muse-centr-total__user-name {
+        font-size: 2.0vw;
+    }
+
+    .muse-centr-total__team-list {
+        margin-top: 1vw;
+    }
+
+    .muse-centr-total__team-list {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5vw;
+    }
+
+    .muse-centr-total__line {
+        margin-top: 2vw;
+        margin-bottom: 1.2vw;
+    }
+
+    .muse-centr-total__big-digit {
+        font-size: 2.4vw;
+    }
+
+    .muse-gallery-card_three {
+        margin-top: 3vw;
+    }
+
+    .muse-gallery-card__art-digit {
+        font-size: 1.7vw;
+    }
+
+    .muse-gallery-card__art-name {
+        font-size: 1.4vw;
+        margin-top: 0.4vw;
+    }
+
+}
+
 /* MUSE-s4-central-card3 */
-.s4-central-card-3 {
+.s4-central-card-inner {
     padding-top: 5vw;
 }
 
-.s4-central-card-3__title {
+.s4-central-card__title {
     text-align: center;
     text-transform: uppercase;
     margin: 0 auto;
@@ -2140,10 +2397,6 @@ input{
 .muse-card-table_card3 {
     width: 83.5vw;
 }
-
-/* .s4-central-card__grey-inner_card3 .muse-card-table tr td:nth-child(3) {
-    width: 9vw;
-} */
 
 .s4-central-card__grey-inner_card3 .muse-card-table tr td:last-of-type {
     width: 15.5vw;
@@ -2196,7 +2449,7 @@ input{
 }
 
 @media (min-width: 1450px) and (max-width: 1900px) { 
-    .s4-central-card-3 {
+    .s4-central-card-inner {
         padding-top: 5vw;
     }
 
@@ -2220,7 +2473,7 @@ input{
 }
 
 @media (min-width: 2560px) { 
-    .s4-central-card-3 {
+    .s4-central-card-inner {
         padding-top: 3vw;
     }
 
@@ -2236,17 +2489,256 @@ input{
         right: 4.8vw;
     }
 
-    
-
 }
 
 
+/* MUSE-s4-central-card4 */
+.s4-central-card__subtitle {
+    text-align: center;
+    color: #D0D6DC;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    font-size: 1.73vw;
+    margin-top: 1vw;
+}
+
+.muse-centr-total_c4 {
+    margin-top: 3.2vw;
+    width: 46%;
+    padding-bottom: 1.5vw;
+}
+
+.muse-centr-total__line-c4 {
+    width: 90%;
+    height: 2px;
+    background: #7B7B7B;
+    margin: 0 auto;
+    margin-top: 2.4vw;
+    margin-bottom: 2.7vw;
+}
+
+.muse-centr-total__star-title {
+    font-size: 1.7vw;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: #D0D6DC;
+}
+
+.muse-centr-rating__star-wrapper_c4 {
+    justify-content: center;
+    margin-top: 1vw;
+}
+
+.muse-gallery-card_c4 {
+    width: 44.5%;
+    margin-top: 3.3vw;
+}
+
+@media (max-width: 1200px) { 
+    .muse-centr-total_c4 {
+        margin-top: 4.2vw;
+        padding-bottom: 3.5vw;
+        padding-top: 5vw;
+    }
+
+    .muse-centr-total__line-c4 {
+        margin-top: 3.4vw;
+        margin-bottom: 3.7vw;
+    }
+
+    .muse-gallery-card_c4 {
+        margin-top: 5.3vw;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+    .s4-central-card-inner_padding {
+        padding-top: 4vw;
+    }
+}
+
+@media (min-width: 1450px) and (max-width: 1900px) { 
+    .muse-centr-total_c4 {
+        margin-top: 1.2vw;
+        padding-bottom: 0.5vw;
+    }
+
+    .muse-centr-total__line-c4 {
+        margin-top: 1.4vw;
+        margin-bottom: 1.7vw;
+    }
+    .muse-gallery-card_c4 {
+        margin-top: 2.3vw;
+    }
+}
+
+@media (min-width: 1900px) and (max-width: 2559px) { 
+    .s4-central-card-inner_padding {
+        padding-top: 4vw;
+    }
+}
+
+@media (min-width: 2560px) { 
+    .muse-centr-total_c4 {
+        margin-top: 1.2vw;
+        padding-bottom: 0.5vw;
+    }
+
+    .muse-centr-total__line-c4 {
+        margin-top: 1.4vw;
+        margin-bottom: 1.7vw;
+    }
+
+    .muse-gallery-card_c4 {
+        margin-top: 2.3vw;
+    }
+
+} 
 
 
+/* MUSE-s4-central-card5 */
+.s4-central-card__subtitle_c5 {
+    margin-bottom: 6vw;
+}
 
+.s4-cent-card-grey {
+    background: #2B2B2B;
+    border-top: 1px solid #7B7B7B;
+    border-bottom: 1px solid #7B7B7B;
+    padding: 3vw 5vw;
+}
 
+.s4-cent-card-grey__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.s4-cent-card-grey__title-line {
+    width: auto;
+    height: 1px;
+    background: #DFAF89;
+    width: 100%;
+}
 
+.s4-cent-card-grey__nick {
+    font-size: 2.4vw;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-weight: 700;
+    color: #DFAF89;
+    margin: 0 5vw;
+}
+
+.muse-gallery-card_c5 {
+    width: 100%;
+    margin-top: 2.8vw;
+}
+
+.muse-gallery-card__name-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.muse-gallery-card__name-line {
+    background: #7B7B7B;
+    height: 1px;
+    width: 64%;
+    margin-top: 0.9vw;
+}
+
+.muse-gallery-card__name-item {
+    font-size: 2.3vw;
+    font-style: italic;
+    text-align: center;
+    line-height: 109%;
+    margin-top: 0.5vw;
+    color: #D0D6DC;
+}
+
+@media (max-width: 1200px) { 
+    .s4-central-card__subtitle_c5 {
+        margin-bottom: 14vw;
+    }
+}
+
+@media (min-width: 1450px) and (max-width: 1900px) { 
+    .s4-central-card__subtitle_c5 {
+        margin-bottom: 3vw;
+    }
+
+    .s4-cent-card-grey {
+        padding: 2vw 6vw;
+    }
+
+    .muse-gallery-card_c5 {
+        margin-top: 1.8vw;
+    }
+
+    .muse-gallery-card__name-item {
+        font-size: 1.8vw;
+    }
+}
+
+@media (min-width: 2560px) { 
+    .s4-central-card__subtitle_c5 {
+        margin-bottom: 3vw;
+    }
+
+    .s4-cent-card-grey {
+        padding: 2vw 6vw;
+    }
+
+    .muse-gallery-card_c5 {
+        margin-top: 1.8vw;
+    }
+
+    .muse-gallery-card__name-item {
+        font-size: 1.8vw;
+    }
+
+}
+
+/* MUSE-s4-central-card6 */
+.s4-central-card__subtitle_c6 {
+    margin-bottom: 8.5vw;
+}
+
+.s4-cent-card-grey__c6-title {
+    text-align: center;
+    font-size: 1.8vw;
+    text-transform: uppercase;
+    margin-top: 2.4vw;
+    letter-spacing: 0.15em;
+}
+
+.s4-cent-card-grey__money {
+    font-size: 4.4vw;
+    letter-spacing: 0.15em;
+    text-align: center;
+    margin-top: 2vw;
+    font-weight: 700;
+}
+
+@media (max-width: 1200px) { 
+    .s4-central-card__subtitle_c6 {
+        margin-bottom: 15.5vw;
+    }
+}
+
+@media (min-width: 1450px) and (max-width: 1900px) { 
+    .s4-central-card__subtitle_c6 {
+        margin-bottom: 4.5vw;
+    }
+}
+
+@media (min-width: 2560px) { 
+    .s4-central-card__subtitle_c6 {
+        margin-bottom: 4.5vw;
+    }
+}
 
 
 
