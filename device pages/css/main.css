@@ -48,6 +48,7 @@ button {
     border: none;
     color: inherit;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 input{
@@ -59,6 +60,10 @@ input{
 .container {
 	margin: 0 auto;
     padding: 0 5vw;
+}
+
+.pos-rel-muse {
+    position: relative;
 }
 
 
@@ -516,7 +521,7 @@ input{
 .muse-dev-bid-form {
     background: #2B2B2B;
     border-top: 1px solid #7B7B7B;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     padding-top: 9vw;
@@ -570,7 +575,68 @@ input{
     background: #657687;
 }
 
+@media (min-width: 359px) and (min-height: 700px) and (max-width: 380px) and (min-height: 700px){ 
+    .muse-dev-bid-switch {
+        margin-top: 20.5vw;
+    }
 
+    .muse-dev-bid-form {
+        padding-top: 14vw;
+        padding-bottom: 18.7vw;
+    }
+
+    .muse-dev-bid-form__txt {
+        margin-top: 10vw;
+        margin-bottom: 16vw;
+    }
+}
+
+@media (min-width: 767px) and (min-height: 1023px) { 
+    .muse-dev-bid-switch__btn {
+        height: 10vw;
+    }
+
+    .muse-dev-bid-form {
+        padding-top: 3vw;
+        padding-bottom: 6.7vw;
+    }
+
+    .muse-dev-bid-form__title {
+        margin-bottom: 6vw;
+    }
+
+    .muse-dev-bid-form__txt {
+        margin-top: 4vw;
+        margin-bottom: 6vw;
+    }
+
+    .muse-dev-bid-form__input-symb {
+        font-size: 7.5vw;
+        top: 1.4vw;
+    }
+
+    .muse-dev-bid-form__input {
+        height: 12vw;
+        padding-left: 9vw;
+        font-size: 7.5vw;
+    }
+}
+
+@media (min-width: 799px) and (min-height: 1279px) { 
+    .muse-dev-bid-form {
+        padding-top: 9vw;
+        padding-bottom: 11.7vw;
+    }
+
+    .muse-dev-bid-form__title {
+        margin-bottom: 8vw;
+    }
+
+    .muse-dev-bid-form__txt {
+        margin-top: 5vw;
+        margin-bottom: 13vw;
+    }
+}
 
 
 
