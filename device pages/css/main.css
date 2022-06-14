@@ -1,0 +1,299 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+
+/*Specification start*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+    background: #090A0A;
+    height: 100vh;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+    color: inherit;
+}
+
+input:focus, button:focus { 
+	outline: none 
+}
+
+button {
+	padding: 0;
+	border: none;
+	cursor: pointer;
+    background: none;
+    border: none;
+    color: inherit;
+    font-family: 'Roboto', sans-serif;
+}
+
+input{
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+.container {
+	margin: 0 auto;
+    padding: 0 5.1vw;
+}
+
+
+/* MUSE-s0-device */
+.s0-device {
+    height: 100vh;
+}
+
+.muse-dev-header {
+    display: flex;
+    padding: 9vw 5vw 4.2vw;
+    background: #1E1E1E;
+    align-items: center;
+    position: relative;
+}
+
+.muse-dev-header__digit {
+    width: 10.5vw;
+    background: #0A0909;
+    height: 8vw;
+    display: flex;
+    border-radius: 1.8vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 4.7vw;
+    line-height: 100%;
+}
+
+.muse-dev-header__team {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 26%;
+    border: 1px solid #fff;
+    height: 8vw;
+    display: flex;
+    border-radius: 1.8vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 4.0vw;
+}
+
+.muse-dev-header__info {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 8vw;
+    height: 8vw;
+}
+
+.muse-dev-header__info-icon {
+    width: 76%;
+    height: 76%;
+    object-fit: contain;
+}
+
+.s0-device__logo {
+    margin: 0 auto;
+    display: block;
+    margin-top: 24vw;
+    width: 70vw;
+    height: auto;
+    margin-bottom: 7vw;
+}
+
+.s0-device-art {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 41vw;
+    width: 58vw;
+    margin-bottom: 27vw;
+}
+
+.s0-device-art__frame {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(2px 6px 8px rgba(0, 0, 0, 0.25));
+}
+
+.s0-device-art__art-img {
+    width: 88%;
+    height: 88%;
+    object-fit: contain;
+}
+
+.muse-dev-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 67vw;
+    height: 14vw;
+    border-radius: 2vw;
+    background: #CF8A54;
+    margin: 0 auto;
+    text-transform: capitalize;
+    font-size: 4.4vw;
+}
+
+@media (min-width: 359px) and (min-height: 700px) { 
+    .s0-device__logo {
+        margin-bottom: 13vw;
+        margin-top: 32vw;
+    }
+
+    .s0-device-art {
+        height: 51vw;
+        width: 71vw;
+        margin-bottom: 32vw;
+    }
+}
+
+@media (min-width: 767px) and (min-height: 1023px) { 
+    
+    .muse-dev-header {
+        padding: 2.8vw 5vw 2.8vw;
+    }
+
+    .muse-dev-header__digit {
+        width: 8.5vw;
+        height: 4.4vw;
+        font-size: 3.2vw;
+    }
+
+    .muse-dev-header__team {
+        width: 26%;
+        border: 1px solid #fff;
+        height: 4.4vw;
+        border-radius: 0.8vw;
+        font-size: 3vw;
+    }
+
+    .muse-dev-header__info {
+        width: 4.4vw;
+        height: 4.4vw;
+    }
+
+    .s0-device__logo {
+        margin-bottom: 10vw;
+        margin-top: 9vw;
+        width: 55vw;
+    }
+
+    .s0-device-art {
+        margin-bottom: 16vw;
+    }
+
+    .muse-dev-btn {
+        width: 43vw;
+        height: 9vw;
+        font-size: 3.4vw;
+    }
+}
+
+@media (min-width: 719px) and (min-height: 1279px) { 
+    .s0-device__logo {
+        margin-top: 15vw;
+    }
+}
+
+@media (min-width: 799px) and (min-height: 1279px) { 
+    .muse-dev-header__team {
+        height: 6.4vw;
+        font-size: 3.3vw;
+    }
+
+    .muse-dev-header__digit {
+        height: 6.4vw;
+    }
+
+    .muse-dev-header__info {
+        width: 6.4vw;
+        height: 6.4vw;
+    }
+
+    .s0-device__logo {
+        margin-top: 20vw;
+        width: 63vw;
+    }
+
+    .muse-dev-btn {
+        width: 65vw;
+        height: 12vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (min-width: 359px) and (min-height: 700px) { 
+
+}
+
+@media (min-width: 767px) and (min-height: 1023px) { 
+
+}
+
+@media (min-width: 719px) and (min-height: 1279px) { 
+
+}
+
+@media (min-width: 799px) and (min-height: 1279px) { 
+
+} */
