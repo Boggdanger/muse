@@ -1,5 +1,5 @@
 /* google font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
 
 /*Specification start*/
 
@@ -485,9 +485,90 @@ input{
 } 
 
 
+/* MUSE-s1-device-bid */
+.muse-dev-title-lines__line-item_bid {
+    width: 22%;
+}
 
+.muse-dev-bid-switch {
+    background: #2E3032;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1.5vw;
+    margin-top: 10.5vw;
+    padding: 1.5vw;
+}
 
+.muse-dev-bid-switch__btn {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.2vw;
+    background: #657687;
+    border-radius: 1.5vw;
+    height: 4vw;
+    height: 12vw;
+}
 
+.muse-dev-bid-form {
+    background: #2B2B2B;
+    border-top: 1px solid #7B7B7B;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 9vw;
+    padding-bottom: 11.7vw;
+}
+
+.muse-dev-bid-form__title {
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 8vw;
+}
+
+.muse-dev-bid-form__input-wrapper {
+    position: relative;
+}
+
+.muse-dev-bid-form__input-symb {
+    position: absolute;
+    color: #657687;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    font-size: 8.5vw;
+    top: 2.2vw;
+    left: 3vw;
+}
+
+.muse-dev-bid-form__input {
+    width: 100%;
+    height: 15vw;
+    padding-left: 9vw;
+    font-size: 8.5vw;
+    font-family: 'Inter', sans-serif;
+    color: #657687;
+    font-weight: 300;
+    border-radius: 2vw;
+}
+
+.muse-dev-bid-form__input::placeholder {
+    color: #657687;
+}
+
+.muse-dev-bid-form__txt {
+    text-align: center;
+    font-size: 3.92vw;
+    margin-top: 5vw;
+    margin-bottom: 13vw;
+}
+
+.muse-dev-btn_bid {
+    width: 100%;
+    background: #657687;
+}
 
 
 
@@ -508,6 +589,10 @@ input{
 
 .muse-gallery-dev__icon-active_width {
     width: 45%;
+}
+
+.bg-orange {
+    background: #CF8A54;
 }
 
 
