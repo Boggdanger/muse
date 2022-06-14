@@ -178,6 +178,13 @@ input{
     }
 }
 
+@media (min-width: 380px) and (max-width: 450px) { 
+    .s0-device__logo {
+        margin-bottom: 13vw;
+        margin-top: 14vw;
+    }
+}
+
 @media (min-width: 767px) and (min-height: 1023px) { 
     
     .muse-dev-header {
