@@ -1023,6 +1023,61 @@ input{
     }
 }
 
+/* MUSE-s3-device-card3-fail */
+.s2-device-c3_fail {
+    height: 100vh;
+    padding-bottom: 9vw;
+}
+
+.MUSE-s3-device-card3-fail__title {
+    text-align: center;
+    font-weight: 700;
+    color: #DFAF89;
+    margin-top: 20vw;
+    font-size: 8.2vw;
+    letter-spacing: 0.15em;
+    margin-bottom: 16vw;
+}
+
+.MUSE-s3-device-card3-fail__txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8vw 0;
+    background: #2B2B2B;
+    border-top: 1px solid #7B7B7B;
+    border-bottom: 1px solid #7B7B7B;
+}
+
+.MUSE-s3-device-card3-fail__txt-item {
+    width: 63%;
+    font-size: 6.8vw;
+    text-align: center;
+}
+
+@media (min-width: 359px) and (min-height: 700px) and (max-width: 380px) and (min-height: 700px){ 
+    .MUSE-s3-device-card3-fail__title {
+        margin-bottom: 25vw;
+    }
+
+    .MUSE-s3-device-card3-fail__txt {
+        padding: 13vw 0;
+    }
+}
+
+@media (min-width: 767px) and (min-height: 1023px) { 
+    .MUSE-s3-device-card3-fail__txt-item {
+        font-size: 3.8vw;
+    }
+}
+
+@media (min-width: 799px) and (min-height: 1279px) { 
+    .MUSE-s3-device-card3-fail__txt-item {
+        width: 52%;
+        font-size: 4.8vw;
+    }
+}
+
 
 
 
