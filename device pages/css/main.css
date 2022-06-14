@@ -638,6 +638,124 @@ input{
     }
 }
 
+/* MUSE-s1-device-wait */
+.muse-dev-title-lines__play-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.muse-dev-title-lines_wait {
+    margin-top: 5.5vw;
+}
+
+.muse-dev-title-lines__line-item_wait {
+    width: 15%;
+}
+
+.muse-dev-title-lines__digit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    width: 8.6vw;
+    height: 8.6vw;
+    font-weight: 700;
+    font-size: 5.35vw;
+    margin-right: 3vw;
+    text-align: center;
+    padding-left: 0.2vw;
+    background: #FF6006;
+}
+
+.muse-dev-title-lines__nick {
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-weight: 700;
+    font-size: 5vw;
+    color: #DFAF89;
+}
+
+.s1-device-wait-ratings__title {
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 2vw;
+    margin-bottom: 4.6vw;
+}
+
+.s1-device-wait-rating__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4vw;
+    padding-bottom: 3.4vw;
+    border-bottom: 1px solid #7B7B7B;
+}
+
+.s1-device-wait-rating__item:first-of-type {
+    border-top: 1px solid #7B7B7B;
+}
+
+.s1-device-wait-rating__item:nth-child(even) {
+    background: #2B2B2B;
+}
+
+.s1-device-wait-rating__item-name {
+    font-size: 5vw;
+}
+
+.muse-gallery-dev__star-item_size,
+.muse-gallery-dev__icon-color_size {
+    width: 8.3vw;
+    height: 8.3vw;
+}
+
+.s1-device-wait-rating__item-txt-ital {
+    font-style: italic;
+    color: #D0D6DC;
+    margin-top: 3vw;
+    font-size: 4.5vw;
+}
+
+@media (min-width: 767px) and (min-height: 1023px) { 
+    .muse-dev-title-lines__digit {
+        width: 6.6vw;
+        height: 6.6vw;
+        font-size: 4.35vw;
+    }
+
+    .muse-dev-title-lines__nick {
+        font-size: 4vw;
+    }
+
+    .muse-gallery-dev__star-item_size, 
+    .muse-gallery-dev__icon-color_size {
+        width: 5.3vw;
+        height: 5.3vw;
+    }
+
+    .s1-device-wait-ratings__title {
+        font-size: 3.5vw;
+        margin-top: 2vw;
+        margin-bottom: 2.6vw;
+    }
+
+    .s1-device-wait-rating__item {
+        padding-top: 3vw;
+        padding-bottom: 2.4vw;
+    }
+
+    .s1-device-wait-rating__item-name {
+        font-size: 3.7vw;
+        margin-bottom: 1vw;
+    }
+
+    .s1-device-wait-rating__item-txt-ital {
+        margin-top: 1vw;
+        font-size: 4.5vw;
+    }
+}
+
 
 
 
