@@ -124,6 +124,10 @@ input{
     object-fit: contain;
 }
 
+.muse-dev-header__white {
+    fill: #fff;
+}
+
 .s0-device__logo {
     margin: 0 auto;
     display: block;
@@ -1449,23 +1453,172 @@ input{
     }
 }
 
+/* MUSE-help1 */
+.MUSE-help {
+    height: 100vh;
+    padding-bottom: 9vw;
+}
+
+.muse-dev-header__info-icon_fill {
+    fill: #DFAF89;
+}
+
+.MUSE-help-inner {
+    padding-top: 8vw;
+}
+
+.MUSE-help-item {
+    width: 56vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.MUSE-help-item:not(:last-of-type) {
+    margin-bottom: 2vw;
+}
+
+.MUSE-help-item__icon {
+    width: 20vw;
+    height: 20vw;
+    object-fit: contain;
+}
+
+.MUSE-help-item__txt {
+    text-align: center;
+    font-size: 5vw;
+}
+
+.MUSE-help-item__line {
+    height: 1px;
+    width: 43vw;
+    background: #7B7B7B;
+    margin-top: 2vw;
+}
+
+.MUSE-help-btn__wrapper {
+    margin-top: 8vw;
+}
+
+.MUSE-help-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 43vw;
+    height: 11vw;
+    border-radius: 2vw;
+    background: #CF8A54;
+    margin: 0 auto;
+    text-transform: capitalize;
+    font-size: 4.4vw;
+}
+
+.MUSE-help-btn:first-of-type {
+    margin-bottom: 4vw;
+}
+
+.MUSE-help-btn_color {
+    background: #657687;
+}
+
+@media (min-width: 359px) and (min-height: 700px) and (max-width: 380px) and (min-height: 700px){ 
+    
+    .MUSE-help-item:not(:last-of-type) {
+        margin-bottom: 13vw;
+    }
+}
+
+@media (min-width: 767px) and (min-height: 1023px) { 
+    .MUSE-help-inner {
+        padding-top: 5vw;
+    }
+    
+    .MUSE-help-item__txt {
+        font-size: 3.4vw;
+    }
+
+    .MUSE-help-item__icon {
+        width: 16vw;
+        height: 16vw;
+    }
+
+    .MUSE-help-btn {
+        height: 8vw;
+    }
+}
+
+@media (min-width: 799px) and (min-height: 1279px) { 
+    .MUSE-help-inner {
+        padding-top: 8vw;
+    }
+
+    .MUSE-help-item__txt {
+        font-size: 4vw;
+    }
+
+    .MUSE-help-btn__wrapper {
+        margin-top: 13vw;
+    }
+}
+
+/* MUSE-help2 */
+.muse-gallery-dev__star-wrapper_help {
+    margin-bottom: 3vw;
+}
+
+.MUSE-help-item__icon_width {
+    width: 30vw;
+}
+
+@media (min-width: 359px) and (min-height: 700px) and (max-width: 380px) and (min-height: 700px){ 
+    .MUSE-help-btn__wrapper_help2 {
+        margin-top: 22vw;
+    }
+}
 
 
+@media (min-width: 767px) and (min-height: 1023px) { 
+    .muse-gallery-dev__star-wrapper_help {
+        margin-bottom: 3vw;
+        margin-top: 11vw;
+    }
+}
 
+@media (min-width: 719px) and (min-height: 1279px) { 
+    .muse-gallery-dev__star-wrapper_help {
+        margin-bottom: 3vw;
+        margin-top: 8vw;
+    }
+}
 
+/* MUSE-help3 */
+.MUSE-help-inner_help3 {
+    padding-top: 17vw;
+}
 
+.MUSE-help-inner_help3 .MUSE-help-item:first-child {
+    margin-bottom: 9vw;
+}
 
+.MUSE-help-inner_help3 .MUSE-help-item:nth-child(2) {
+    margin-bottom: 18vw;
+}
 
+@media (min-width: 359px) and (min-height: 700px) and (max-width: 380px) and (min-height: 700px){ 
+    .MUSE-help-inner_help3 {
+        padding-top: 23vw;
+    }
 
+    .MUSE-help-inner_help3 .MUSE-help-item:first-child {
+        margin-bottom: 20vw;
+    }
 
-
-
-
-
-
-
-
-
+    .MUSE-help-inner_help3 .MUSE-help-item:nth-child(2) {
+        margin-bottom: 33vw;
+    }
+}
 
 
 /* library */
