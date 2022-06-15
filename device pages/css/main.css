@@ -1671,7 +1671,241 @@ input{
     }
 }
 
+/* MUSE-team */
+.s3-device-c-digit-team {
+    padding: 7vw 0 13vw;
+}
 
+.muse-team-members {
+    padding-bottom: 3vw;
+}
+
+.muse-team-members__title {
+    border-top: 1px solid #7B7B7B;
+    border-bottom: 1px solid #7B7B7B;
+    text-align: center;
+    font-size: 5vw;
+    color: #D0D6DC;
+    margin-top: 5vw;
+    padding: 4.2vw 0;
+    margin-bottom: 3vw;
+}
+
+.muse-team-members__user {
+    text-align: center;
+    font-size: 3.4vw;
+}
+
+.muse-team-members__user:not(:last-child) {
+    margin-bottom: 5vw;
+}
+
+.team-main-digits {
+    border-top: 1px solid #7B7B7B;
+    border-bottom: 1px solid #7B7B7B;
+    background: #2B2B2B;
+    padding: 4vw 0;
+}
+
+.team-main-digits__white-digit {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12.5vw;
+    font-weight: 700;
+}
+
+.team-main-digits__small-txt {
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-size: 4.2vw;
+    color: #D0D6DC;
+}
+
+.team-main-digits__line {
+    height: 1px;
+    width: 60vw;
+    background: #7B7B7B;
+    margin: 0 auto;
+    margin-top: 3vw;
+}
+
+.team-main-digits__yell-digit {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12.5vw;
+    font-weight: 700;
+    margin-top: 4vw;
+    color: #DFAF89;
+}
+
+.team-main-digits__small-txt-yell {
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-size: 4.2vw;
+    color: #DFAF89;
+    margin-top: 1vw;
+}
+
+.muse-team-gallery__title {
+    border-bottom: 1px solid #7B7B7B;
+    text-align: center;
+    font-size: 5vw;
+    color: #D0D6DC;
+    padding: 4.2vw 0;
+    margin-bottom: 7vw;
+}
+
+.muse-team-gallery__item {
+    padding-bottom: 5vw;
+}
+
+.muse-team-gallery__art-wrapper {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 41vw;
+    width: 58vw;
+    margin-bottom: 4vw;
+}
+
+.muse-team-gallery__frame {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(2px 6px 8px rgba(0, 0, 0, 0.25));
+}
+
+.muse-team-gallery__art-img {
+    width: 88%;
+    height: 88%;
+    object-fit: contain;
+}
+
+.muse-team-gallery__star-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.muse-team-gallery__star-item {
+    position: relative;
+    width: 5vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.muse-team-gallery__star-item:not(:last-of-type) {
+    margin-right: 2.3vw;
+}
+
+.muse-team-gallery__icon-active {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    overflow: hidden;
+    left: 0;
+}
+
+.icon-active__icon-color {
+    width: 5vw;
+    height: 5vw;
+    object-fit: contain;
+}
+
+.icon-active__icon-grey {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+}
+
+.muse-team-gallery__small-txt-yell {
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-size: 4.2vw;
+    color: #DFAF89;
+    margin-top: 3vw;
+}
+
+.muse-team-gallery__price {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 8vw;
+}
+
+.muse-team-gallery__line {
+    height: 1px;
+    background: #7B7B7B;
+    width: 70vw;
+    margin: 0 auto;
+    margin-bottom: 8vw;
+}
+
+.MUSE-team-btn__wrapper {
+    margin-top: 1vw;
+}
+
+.MUSE-team-btn__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 43vw;
+    height: 11vw;
+    border-radius: 2vw;
+    background: #CF8A54;
+    margin: 0 auto;
+    text-transform: capitalize;
+    font-size: 4.4vw;
+}
+
+.MUSE-team-btn__btn_red {
+    background: #D42044;
+    margin-top: 4vw;
+}
+
+@media (min-width: 767px) and (min-height: 1023px) { 
+    .muse-team-members__title,
+    .muse-team-gallery__title {
+        font-size: 4vw;
+        margin-top: 3vw;
+        padding: 2.2vw 0;
+        margin-bottom: 2vw;
+    }
+
+    .muse-team-gallery__title {
+        margin-bottom: 6vw;
+    }
+
+    .muse-team-members__user:not(:last-child) {
+        margin-bottom: 3vw;
+    }
+
+    .team-main-digits__white-digit {
+        font-size: 9.5vw;
+    }
+
+    .team-main-digits__small-txt {
+        font-size: 3.2vw;
+    }
+
+    .team-main-digits__yell-digit {
+        margin-top: 3vw;
+        font-size: 9.5vw;
+    }
+
+    .team-main-digits__small-txt-yell {
+        font-size: 3.2vw;
+    }
+}
 
 
 
