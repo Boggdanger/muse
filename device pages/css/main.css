@@ -1620,6 +1620,73 @@ input{
     }
 }
 
+/* MUSE-team-popUp */
+.MUSE-team-popUp {
+    height: 100vh;
+    padding-bottom: 9vw;
+}
+
+.muse-dev-header__team_yellow {
+    border: none;
+    background: #DFAF89;
+    color: #1E1E1E;
+}
+
+.MUSE-team-popUp__title {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 32vw;
+    font-size: 10vw;
+    width: 40vw;
+    font-weight: 500;
+}
+
+.MUSE-team-popUp__txt {
+    text-align: center;
+    margin-top: 12vw;
+    font-size: 7vw;
+    font-weight: 500;
+    margin-bottom: 16vw;
+}
+
+.MUSE-help-btn_popUp {
+    width: 55vw;
+}
+
+.MUSE-help-btn_popUp-color {
+    width: 55vw;
+    background: #D42044;
+}
+
+@media (min-width: 359px) and (min-height: 700px) and (max-width: 380px) and (min-height: 700px){ 
+
+
+    .MUSE-team-popUp__title {
+        margin-top: 43vw;
+        font-size: 15vw;
+    }
+
+    .MUSE-team-popUp__txt {
+        margin-bottom: 43vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* library */
 .muse-gallery-dev__icon-active_width {
