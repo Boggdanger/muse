@@ -1239,6 +1239,223 @@ input{
     }
 }
 
+/* MUSE-s4-device-card1 */
+.MUSE-s4-device-card1 {
+    height: 100vh;
+    padding-bottom: 9vw;
+}
+
+.MUSE-s4-device-card1__title {
+    width: 60vw;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 17.6vw;
+    font-size: 8.2vw;
+    letter-spacing: 0.15em;
+    margin-bottom: 11vw;
+    padding: 3vw 0;
+    background: #16D8A9;
+    border-radius: 20vw;
+    text-transform: uppercase;
+}
+
+.MUSE-s4-device-card1__txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8vw 0;
+    background: #2B2B2B;
+    border-top: 1px solid #7B7B7B;
+    border-bottom: 1px solid #7B7B7B;
+}
+
+.MUSE-s4-device-card1__txt-item {
+    width: 87%;
+    font-size: 6.8vw;
+    text-align: center;
+}
+
+.MUSE-s4-device-card1__total {
+    font-size: 12.2vw;
+    text-align: center;
+    color: #16D8A9;
+    font-weight: 700;
+    margin-top: 26vw;
+}
+
+.MUSE-s4-device-card1__bottom-txt {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-size: 4.2vw;
+    margin-top: 2vw;
+}
+
+@media (min-width: 359px) and (min-height: 700px) and (max-width: 380px) and (min-height: 700px){ 
+    .MUSE-s4-device-card1__title {
+        margin-top: 21.6vw;
+        margin-bottom: 24vw;
+    }
+}
+
+@media (min-width: 767px) and (min-height: 1023px) { 
+    .MUSE-s4-device-card1__title {
+        width: 50vw;
+        margin-top: 11.6vw;
+        font-size: 7.2vw;
+        margin-bottom: 14vw;
+        padding: 1vw 0;
+    }
+
+    .MUSE-s4-device-card1__txt-item {
+        width: 60%;
+        font-size: 4.8vw;
+        text-align: center;
+    }
+
+    .MUSE-s4-device-card1__total {
+        margin-top: 12vw;
+    }
+}
+
+/* MUSE-s4-device-card3 */
+.dev-card-place {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    margin: 0 auto;
+    margin-top: 5vw;
+}
+
+.dev-card-place__icon {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
+.dev-card-place__digit {
+    position: absolute;
+    text-align: center;
+    font-size: 8vw;
+    font-weight: 700;
+    top: 2.2vw;
+    color: #DFAF89;
+}
+
+.s3-device-c-digit__white-digit_s4 {
+    margin-top: 1vw;
+}
+
+.s3-device-c-digit__yell-digit_s4 {
+    margin-top: 1vw;
+}
+
+.dev-c-list__item {
+    display: flex;
+    align-items: center;
+    padding: 4.5vw 4vw 4.5vw 0;
+}
+
+.dev-c-list__item:not(:last-of-type) {
+    border-bottom: 1px solid #7B7B7B;
+}
+
+.dev-c-list__status {
+    height: 13vw;
+    width: 18vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.dev-c-list__fired {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.7vw;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    background: #D42044;
+    height: 6vw;
+    border-radius: 5vw;
+}
+
+.dev-c-list__digit-place {
+    position: absolute;
+    top: 2vw;
+    font-size: 5.4vw;
+    font-weight: 700;
+    color: #DFAF89;
+}
+
+.dev-c-list__icon-item {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.dev-c-list__name,
+.dev-c-list__total {
+    font-size: 5vw;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #D0D6DC;
+    margin-left: 3vw;
+}
+
+.dev-c-list__total {
+    margin-left: auto;
+}
+
+@media (min-width: 767px) and (min-height: 1023px) { 
+    .dev-card-place {
+        width: 14vw;
+        margin-top: 3vw;
+    }
+
+    .dev-c-list__item {
+        padding: 2vw 4vw 2vw 0;
+    }
+
+    .dev-c-list__status {
+        height: 11vw;
+        width: 16vw;
+    }
+
+    .dev-c-list__digit-place {
+        font-size: 4vw;
+    }
+
+    .dev-c-list__name, .dev-c-list__total {
+        font-size: 4vw;
+        margin-left: 5vw;
+    }
+
+    .dev-c-list__total {
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 799px) and (min-height: 1279px) { 
+    .dev-c-list__item {
+        padding: 3.5vw 4vw 3.5vw 0;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 
